@@ -2,7 +2,7 @@ mov ah, 0x0e
 
 ; attempt 1
 ; fails because it tries to print the memory address (pointer)
-; not the cpntents
+; not the contents
 mov al, "1"
 int 0x10
 mov al, the_secret
